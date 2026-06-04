@@ -48,13 +48,13 @@ const upload = multer({ storage });
 // Initialize default data
 const defaultSettings = {
   dpImage: null,
-  userPassword: 'shadow55',
-  adminPassword: 'r749926n',
+  userPassword: 'alone99',
+  adminPassword: 'a889900h',
   socialLinks: {
-    whatsapp: 'https://wa.me/923709515870',
-    youtube: 'https://youtube.com/@ShadowHERE.460',
-    telegram: 'https://t.me/ssbugchannel',
-    community: 'https://chat.whatsapp.com/EdtVcLNT3dfEwZuoqHdm98'
+    whatsapp: 'https://wa.me/923235248941',
+    youtube: 'https://youtube.com/@alonehacker-0009t?si=uDcpQT4xHDH3ZeR-',
+    telegram: 'https://t.me/alone_hacker_0009t',
+    Channel: 'https://whatsapp.com/channel/0029Vb50wllJuyAEmYS7iV1h'
   },
   lastModified: Date.now()
 };
@@ -348,6 +348,6 @@ app.get('/{*path}', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`SHADOW TOOLKIT Server running on port ${PORT}`);
+  console.log(`ALONE HACKER TOOLKIT Server running on port ${PORT}`);
   console.log(`Data directory: ${DATA_DIR}`);
 });
