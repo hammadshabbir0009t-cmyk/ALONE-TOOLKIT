@@ -292,7 +292,7 @@ function LoadingScreen({ dpImage, onDone }: { dpImage: string; onDone: () => voi
         {percent}%
       </div>
       <div style={{ marginTop: '30px', fontSize: '0.7rem', color: 'rgba(255,255,255,0.3)', letterSpacing: '3px' }}>
-        SHADOW OFFICIAL TOOLKIT v2.0
+        ALONE HACKER TOOLKIT v2.0
       </div>
     </div>
   );
@@ -311,7 +311,7 @@ function PasswordScreen({ onLogin, showToast }: { onLogin: (type: string) => voi
       localStorage.setItem('shadow_token', res.token);
       localStorage.setItem('shadow_userType', res.userType);
       onLogin(res.userType);
-      showToast(res.userType === 'admin' ? 'Welcome Admin! Access granted.' : 'Welcome to SHADOW TOOLKIT!', 'success');
+      showToast(res.userType === 'admin' ? 'Welcome Admin! Access granted.' : 'Welcome to ALONE TOOLKIT!', 'success');
     } catch (e: any) {
       setError(true);
       setShake(true);
@@ -546,7 +546,7 @@ function WelcomeModal() {
             marginBottom: '12px',
           }}
         >
-          Welcome to SHADOW TOOLKIT!
+          Welcome to ALONE TOOLKIT!
         </h2>
         <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.9rem', marginBottom: '20px', lineHeight: 1.6 }}>
           You now have access to premium tools & resources.
@@ -585,7 +585,7 @@ function WelcomeModal() {
             }}
           >
             <i className="fab fa-whatsapp" style={{ color: '#25d366', fontSize: '1.2rem' }} />
-            <span>Join WhatsApp Community for exclusive content!</span>
+            <span>Join WhatsApp Channel for exclusive content!</span>
           </div>
           <div
             style={{
@@ -639,10 +639,10 @@ export default function App() {
   const [tools, setTools] = useState<Tool[]>([]);
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [socialLinks, setSocialLinks] = useState<SocialLinks>({
-    whatsapp: 'https://wa.me/923709515870',
-    youtube: 'https://youtube.com/@ShadowHERE.460',
-    telegram: 'https://t.me/ssbugchannel',
-    community: 'https://chat.whatsapp.com/EdtVcLNT3dfEwZuoqHdm98',
+    whatsapp: 'https://wa.me/923235248941',
+    youtube: 'https://youtube.com/@alonehacker-0009t?si=uDcpQT4xHDH3ZeR-',
+    telegram: 'https://t.me/alone_hacker_0009t',
+    channel: 'https://whatsapp.com/channel/0029Vb50wllJuyAEmYS7iV1h',
   });
   const [activeUsers, setActiveUsers] = useState(0);
   const [toasts, setToasts] = useState<ToastMsg[]>([]);
